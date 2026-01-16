@@ -1,0 +1,52 @@
+# Environment
+
+.env
+.env.local
+.env.\*.local
+
+# Dependencies
+
+vendor/
+node_modules/
+
+# IDE
+
+.idea/
+.vscode/
+_.swp
+_.swo
+\*~
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+\*.log
+logs/
+
+# Terraform
+
+.terraform/
+_.tfstate
+_.tfstate.\*
+_.tfvars
+!_.tfvars.example
+
+# Docker
+
+docker-compose.override.yml
+
+# Backups
+
+_.sql
+_.sql.gz
+backups/
+
+# Temp
+
+tmp/
+temp/
+\*.tmp
